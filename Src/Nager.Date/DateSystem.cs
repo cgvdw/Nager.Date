@@ -37,6 +37,7 @@ namespace Nager.Date
                 { CountryCode.BY, new BelarusProvider(_orthodoxProvider) },
                 { CountryCode.BZ, new BelizeProvider(_catholicProvider) },
                 { CountryCode.CA, new CanadaProvider(_catholicProvider) },
+                { CountryCode.CD, new DRCProvider() },
                 { CountryCode.CH, new SwitzerlandProvider(_catholicProvider) },
                 { CountryCode.CL, new ChileProvider(_catholicProvider) },
                 { CountryCode.CN, new ChinaProvider() },
@@ -122,6 +123,7 @@ namespace Nager.Date
                 //Not officially assigned https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
                 //{ CountryCode.XK, new KosovoProvider(_orthodoxProvider, _catholicProvider) },
                 { CountryCode.ZA, new SouthAfricaProvider(_catholicProvider) },
+                { CountryCode.ZM, new ZambiaProvider(_catholicProvider) },
                 { CountryCode.ZW, new ZimbabweProvider(_catholicProvider) }
             };
 
